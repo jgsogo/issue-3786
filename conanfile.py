@@ -13,7 +13,6 @@ class LibConan(ConanFile):
     description = "<Description of Lib here>"
     topics = ("<Put some tag here>", "<here>", "<and here>")
 
-    export_sources = "README.md"
 
     def package(self):
         self.copy("*.h", dst="include", src="hello")
